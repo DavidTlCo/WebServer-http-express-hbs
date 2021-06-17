@@ -36,7 +36,7 @@ app.get('/elements', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.render('error', {
+    res.render('error ', {
         nombre: 'David Tlahupa Coraza',
         titulo: 'Curso de Node'
     });
